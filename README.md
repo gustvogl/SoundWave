@@ -1,16 +1,19 @@
-# 🎙️ SoundWave
+# 🎙️ SoundWave Pro — Podcasts Acadêmicos
 
-Aplicativo mobile nativo Android para **Player e Streaming de Podcasts Acadêmicos**, desenvolvido como projeto prático da disciplina **PPDM2 (Aula 16 - Personalização Nativa)**.
+Aplicativo mobile nativo Android desenvolvido para a disciplina **PPDM2 (Aula 16 - Personalização Nativa)**, focado em streaming e curadoria de podcasts científicos e universitários.
 
-## 🎨 Identidade Visual (Aluno 11)
-- **Aplicativo:** SoundWave
-- **Categoria:** Educação / Streaming de Áudio Acadêmico
-- **Paleta de Cores:** Roxo Vibrante (`#9333EA`) e Branco (`#FFFFFF`)
-- **Ícone Nativo (`assets/icon.png`):** `1024x1024px` sem bordas arredondadas manuais (adaptativo).
-- **Splash Screen (`assets/splash.png`):** `2732x2732px` com logotipo centralizado na Safe Zone.
+## ✨ Funcionalidades
+- **Catálogo Acadêmico & Busca:** Filtro por áreas do conhecimento (Computação, IA & Dados, Pesquisa, Física) e busca instantânea por docentes, instituições ou temas.
+- **Player Completo & Mini-Player Flutuante:** Barra de progresso interativa, controle de velocidade (`1x`, `1.25x`, `1.5x`, `2x`), modal expandido com *Abstract* (resumo científico) e síntese sonora via Web Audio API.
+- **Biblioteca Pessoal:** Favoritar e gerenciar episódios salvos na aba Biblioteca.
+- **Identidade Visual Nativa:** Ícone adaptativo (`1024x1024`) e Splash Screen (`2732x2732`) gerados via `@capacitor/assets`.
+- **CI/CD Automatizado:** Compilação automática do artefato `meu-aplicativo-apk` via GitHub Actions.
 
-## 🛠️ Tecnologias & Ferramentas
-- **Frontend:** React 18, TypeScript, Vite, Lucide Icons
-- **Mobile Runtime:** Capacitor 6 (`@capacitor/android`, `@capacitor/splash-screen`)
-- **Automação de Assets:** `@capacitor/assets`
-- **CI/CD:** GitHub Actions para compilação automática de APK na nuvem
+## 🚀 Como Executar
+```bash
+npm install
+npm run build
+npx cap add android
+npx capacitor-assets generate --android
+npx cap sync android
+```
