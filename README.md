@@ -17,7 +17,7 @@ O **SoundWave** é uma plataforma focada em streaming, descoberta e curadoria de
 <img src="screenshots/soundwave_mockup_1_trio.png" alt="Tela Principal SoundWave" width="240" /> 
 <img src="screenshots/soundwave_mockup_2_leque.png" alt="Tela Principal SoundWave" width="240" /> 
 <img src="screenshots/soundwave_mockup_3_destaque.png" alt="Tela Principal SoundWave" width="240" /> 
-<img src="screenshots/soundwave_mockup_4_inclinado" alt="Tela Principal SoundWave" width="240" /> 
+<img src="screenshots/soundwave_mockup_4_inclinado.png" alt="Tela Principal SoundWave" width="240" /> 
 
 
 ---
